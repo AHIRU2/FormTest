@@ -4,9 +4,9 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use App\Models\Content;
+use App\Models\Contact;
 
-class ContentsTableSeeder extends Seeder
+class ContactsTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,6 +15,6 @@ class ContentsTableSeeder extends Seeder
      */
     public function run()
     {
-        Content::factory()->count(35)->create();
+        Contact::factory()->count(35)->create();
     }
 }
